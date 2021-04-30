@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GLProgram.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="gl_core_3_3.c" />
+    <ClCompile Include="matlab_utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="glarray.h" />
+    <ClInclude Include="GLProgram.h" />
+    <ClInclude Include="MyImage.h" />
+    <ClInclude Include="VAOImage.h" />
+    <ClInclude Include="vaomesh.h" />
+    <ClInclude Include="gl_core_3_3.h" />
+    <ClInclude Include="matlab_utils.h" />
+    <ClInclude Include="deformer.h" />
+    <ClInclude Include="matlabDeformer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="depthTest.vs" />
+    <Text Include="depthTest.fs" />
+  </ItemGroup>
+</Project>
